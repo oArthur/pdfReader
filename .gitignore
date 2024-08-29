@@ -1,0 +1,62 @@
+# Diretório de ambiente virtual
+venv/
+env/
+
+# Arquivos de configuração de IDEs
+.idea/
+.vscode/
+
+# Arquivos compilados do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de logs
+*.log
+
+# Arquivos de banco de dados local (SQLite, por exemplo)
+*.sqlite3
+*.db
+
+# Arquivos de cache e temporários
+*.cache
+*.tmp
+*.temp
+
+# Arquivos de cobertura de testes
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# Arquivos de pytest
+.cache/
+.pytest_cache/
+*.pytest_cache
+
+# Arquivos de distribuição e pacotes
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Arquivos de dependências
+*.lock
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos de deploy
+.DS_Store
+*.env
+.env.*
+.envrc
+*.envrc
+
+# Arquivos de configuração de Docker (caso esteja utilizando)
+.dockerignore
+docker-compose.yml
+
+# Arquivos de configurações específicas
+local_settings.py
+settings_local.py
+
